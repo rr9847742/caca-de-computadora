@@ -34,7 +34,7 @@ jobs:
         port: 25565
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - uses: actions/checkout@v3
-    - id: minecraft
+    - id: server
       uses: mcenv/setup-minecraft@v2
       with:
         version: "1.12.2" 
